@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Permission table: keep the first column on one line and give the text room. */
+table { table-layout: auto; width: 100%; }
+table td:first-child, table th:first-child { white-space: nowrap; padding-right: 16px; }
+table td { line-height: 1.6; }
